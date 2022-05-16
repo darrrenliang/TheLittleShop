@@ -54,8 +54,8 @@ class Item:
 if __name__ == '__main__':
     Item.set_start_index(10001)
 
-    u1 = Item('macbook air m1', 24600,'Darren1', 'laptop', 'apple laptop')
-    u2 = Item('macbook pro m1', 34500,'Darren1', 'laptop', 'apple laptop')
+    i1 = Item('macbook air m1', 24600,'Darren1', 'laptop', 'apple laptop')
+    i2 = Item('macbook pro m1', 34500,'Darren1', 'laptop', 'apple laptop')
     
-    print(u2)
+    print(i2)
     print(Item.index_of_item)
